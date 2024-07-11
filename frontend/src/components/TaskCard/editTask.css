@@ -1,0 +1,65 @@
+.edit-task-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-task-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-task-form div {
+  margin-bottom: 15px;
+}
+
+.edit-task-form label {
+  font-weight: bold;
+}
+
+.edit-task-form input[type="text"],
+.edit-task-form textarea,
+.edit-task-form input[type="date"],
+.edit-task-form input[type="time"],
+.edit-task-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  font-size: 16px;
+}
+
+.edit-task-form textarea {
+  height: 100px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.edit-task-form select {
+  padding: 10px;
+}
+
+.edit-task-form button[type="submit"] {
+  background-color: #007bff; /* Bootstrap blue color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-task-form button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
